@@ -8,50 +8,56 @@
   </head>
   <body>
     <div class="slider__cont">
-      <div class="slider__counter">
-        <div class="slide__prev">
-          <img alt="previous" src="./assets/left-arrow.png" />
-        </div>
-        <span id="current">03</span>
-        /
-        <span id="total">07</span>
-        <div class="slide__next">
-          <img alt="next" src="./assets/right-arrow.png" />
-        </div>
-      </div>
       <div class="wrapper">
-        <div class="slide">
+        <input type="radio" name="radio-btn" id="radio1" checked />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <input type="radio" name="radio-btn" id="radio4" />
+        <input type="radio" name="radio-btn" id="radio5" />
+        <div class="slider__wrapper">
           <div class="slide__item">
             <img alt="slide" src="./meme/startup.jpeg" />
-            <span id="title">Start Up</span>
           </div>
           <div class="slide__item">
             <img alt="slide" src="./meme/docker.jpeg" />
-            <span id="title">Docker</span>
           </div>
           <div class="slide__item">
             <img alt="slide" src="./meme/inerview.jpeg" />
-            <span id="title">Interview</span>
           </div>
           <div class="slide__item">
             <img alt="slide" src="./meme/program.jpeg" />
-            <span id="title">When you developer</span>
           </div>
           <div class="slide__item">
             <img alt="slide" src="./meme/skill.jpeg" />
-            <span id="title">My skill</span>
           </div>
           <div class="slide__item">
             <img alt="slide" src="./meme/anus.jpeg" />
-            <span id="title">Anus is a flexible concept</span>
           </div>
           <div class="slide__item">
             <img alt="slide" src="./meme/cat.jpeg" />
-            <span id="title">Thanks for Coming</span>
+          </div>
+        </div>
+
+        <div class="caption-controls">
+          <div class="captions">
+            <div class="caption" id="caption1">Отрицание</div>
+            <div class="caption" id="caption2">Docker</div>
+            <div class="caption" id="caption3">Interview</div>
+            <div class="caption" id="caption4">When you developer</div>
+            <div class="caption" id="caption5">My skill</div>
+            <div class="caption" id="caption6">Anus is a flexible concept</div>
+            <div class="caption" id="caption7">Thanks for Coming</div>
+          </div>
+
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
           </div>
         </div>
       </div>
     </div>
-    <script src="./script.js"></script>
   </body>
 </html>
